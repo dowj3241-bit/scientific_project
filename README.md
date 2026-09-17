@@ -7,3 +7,13 @@ This project asks whether machine learning can predict how long market instabili
 The project compares several model families to see which ones work, whether they beat random-chance baselines, and which kinds of information carry signal. The features come from price movements, cross-asset information, and macroeconomic conditions. Where different models agree that a feature matters, that feature is treated as a more promising signal.
 
 The aim is evidence on three points: whether crisis duration is predictable at all, which methods look most promising, and which signals drive predictions. The results are meant to support later research and to give policymakers, investors, and other stakeholders something to work with in periods of extreme uncertainty.
+
+<div align="center">
+
+  <img src="data/Alter_(Raste)_1881_84_Arthur_Fitger.jpg" alt="Nach dem vollendeten Werk ausruhn" width="600px">
+
+  > *„NACH DEM VOLLENDETEN WERK AUSRUHN, O SCHOENSTER GEDANKE,*
+  > *JEDER BEGEHRT ES, DOCH WIE SELTEN GEWAEHRT ES DAS GLUECK.“*
+  > <br>— Arthur Fitger (Hamburger Kunsthalle)
+
+</div>
