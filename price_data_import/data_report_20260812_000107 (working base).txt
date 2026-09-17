@@ -1,0 +1,56 @@
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+Data Report 
+timestamp: 20260812_000107
+======================================================================
+
+Warnings Block 
+----------------------------------------------------------------------
+   ! 3 negative prices found(e.g. WTI 2020-04-20, not replaced by choice)
+
+Descriptive Statistics of the Dataframe
+----------------------------------------------------------------------
+shape(row/columns): 45761 rows x 6 columns
+timespan       : 2000-01-03 - 2026-07-31
+Assets (ticker): 7
+ 
+Number of rows per asset:
+GC=F: 6503
+HG=F: 6508
+NG=F: 6509
+CL=F: 6512
+ZM=F: 6518
+ZW=F: 6527
+^GSPC: 6684
+ 
+Number of rows per category:
+metal: 13011
+energy: 13021
+agricultural: 13045
+equity: 6684
+ 
+postion dimensions per asset:
+GC=F:Max-Closing-Price: 5318.40 , Min-Closing-Price: 255.10 , Mean-Closing-Price: 1326.16 , date coverd: 2000-08-30 - 2026-07-31
+HG=F:Max-Closing-Price: 6.65 , Min-Closing-Price: 0.60 , Mean-Closing-Price: 2.91 , date coverd: 2000-08-30 - 2026-07-31
+NG=F:Max-Closing-Price: 15.38 , Min-Closing-Price: 1.48 , Mean-Closing-Price: 4.37 , date coverd: 2000-08-30 - 2026-07-31
+CL=F:Max-Closing-Price: 145.29 , Min-Closing-Price: -37.63 , Mean-Closing-Price: 65.05 , date coverd: 2000-08-23 - 2026-07-31
+ZM=F:Max-Closing-Price: 548.10 , Min-Closing-Price: 146.00 , Mean-Closing-Price: 308.25 , date coverd: 2000-05-15 - 2026-07-31
+ZW=F:Max-Closing-Price: 1425.25 , Min-Closing-Price: 233.50 , Mean-Closing-Price: 538.87 , date coverd: 2000-07-17 - 2026-07-31
+^GSPC:Max-Closing-Price: 7609.78 , Min-Closing-Price: 676.53 , Mean-Closing-Price: 2374.03 , date coverd: 2000-01-03 - 2026-07-31
+ 
+datatype per column
+date:  object
+close:  float64
+low:  float64
+high:  float64
+tkr:  str
+category:  str
+ 
+Transformation Process Report
+----------------------------------------------------------------------
+duplicates found and dropped: 0
+NaN found: 0
+NaN filled through Interpolation: 0
+0-Values found: 0
+0-Values replaced with Interpolation: 0
+Negative-Values found: 3
+ 
